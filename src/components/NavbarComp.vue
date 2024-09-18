@@ -1,21 +1,18 @@
 <template>
-    <div>
-        <div class="sticky-top">
-        <nav class="navbar  bg-dark">
+    <div class="sticky-top">
+        <nav class="navbar">
+            <a class="brand">J V R</a>
     <div class="container-fluid">
-      <a class="brand">J V R</a>
-       <nav> 
+       <nav class="nav-content"> 
         <a href="#">Home</a> |
         <a href="#about">About</a> |
         <a href="#education">Education</a> |
         <a href="#skills">Skills</a> |
         <a href="#projects">Projects</a> |
-        <a href="#test">Testimonials</a> |
         <a href="#contact">Contact</a> 
        </nav>
     </div>
         </nav>
-    </div> 
     </div>
 </template>
 <script>
@@ -23,6 +20,124 @@ export default {
     
 }
 </script>
-<style>
-    
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navbar{
+    color: black;
+    background-color: black;
+}
+
+.brand{
+  animation: slide 20s infinite alternate;
+  font-size: 20px;
+  /* position: absolute; */
+  /* left: 10px; */
+  margin-right: 5em;
+}
+
+.nav-conent{
+    display: flex;
+    justify-content: center;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes slide {
+        100%{
+            transform: rotateX(3600deg);
+        }
+        50%{
+          transform: rotateY(360deg);
+        }
+        40%{
+        transform: rotateX(3600deg);
+      }
+    } 
+
+    .brand{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #dbb7b7;
+    }
+
+
+   a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: .5em 0;
+    font-family: "Bitter";
+   } 
+
+ a::before,
+ a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: radial-gradient(circle at 81.9% 53.5%, rgb(173, 53, 53) 16.3%, rgb(240, 60, 60) 100.2%);
+  transition: all .5s ease;
+  opacity: 0;
+  transform: scaleX(0);
+  z-index: 1;
+}
+ a::before {
+  top: 1px;
+  left: 0;
+  transform-origin: left right;
+}
+ a::after {
+  bottom: 2px;
+  left: 2px;
+  transform-origin: right left;
+}
+ a:hover::before,
+ a:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+ a:hover {
+  color: rgb(240, 60, 60);
+ 
+
+} 
+@media only screen and (max-width: 680px) {
+  .brand {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+  }
+}
+
+   @media only screen and (min-width: 684px){
+    .brand{
+        margin: 0em auto;
+    }
+    .brand{
+        
+        animation: 1s bounce infinite both;
+    }
+    @keyframes bounce {
+        100%{
+            transform: translateY(0px);
+        }
+        75%{
+            transform: translateY(-2px);
+        }
+        50%{
+            transform: translateY(-1px);
+        }
+    }
+    /* a{
+        display: inline-flex;
+    } */
+   }
 </style>
+
