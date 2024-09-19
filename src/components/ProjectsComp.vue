@@ -1,347 +1,359 @@
 <template>
-    <div class="project-container" >
-        <div class="project-list" >
+  <div class="project-container">
+    <div class="project-list">
 
-<div class="card">
-                        <div class="content">
-                        <div class="back">
-                        <div class="back-content">
-                        <img src="" alt="">
-                        <strong>Calculator</strong>
-                        </div>
-                        </div>
-                        <div class="front">
 
-                        <div class="img">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
 
-                        <div class="front-content">
-                        <small class="badge">Calculator</small>
-                        <div class="description">
-                        <div class="title">
-                            <p class="title">
-                            <strong>I used Javascript, CSS and HTML to create a functional calculator"</strong>
-                            </p>
-                        </div>
-                        <p class="card-footer">
-                            Html &nbsp; | <button>view</button>
-                        </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
+
+      <!-- card 1 -->
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20095121.png"
+                alt=""
+                class="p-image"
+              />
+              <strong>Calculator</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Calculator</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    <strong>I used Javascript, CSS and HTML to create a functional calculator"</strong
+                    >
+                  </p>
+                </div>
+                <p class="card-footer">Html JavaScript | <a href="https://calculator-project-wine.vercel.app/" target="blank"><button>view</button><a href="https://github.com/jayden220/calculator-project.git" target="blank"><button>git</button></a></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20095057.png"
+                alt=""
+                class="p-image"
+              />
+              <strong>Hulu Clone</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Hulu Clone</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    <strong
+                      >This is an HTML project where I created a clone of the
+                      HULU streaming website",
+                    </strong>
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a> 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20095140.png"
+                alt=""
+                class="p-image"
+              />
+              <strong>Temperature Converter</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Project Name</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    This is a JavaScript project where a user inputs the
+                    temperature in celcius and it converts to farenheit
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20094856.png"
+                alt=""
+                class="p-image"
+              />
+              <strong>Age To Days</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Age To Days</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    This is a JavaScript project where a user inputs any age in
+                    years and it converts to days
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20094652.png"
+                alt=""
+                class="p-image"
+              />
+              <strong>E-Commerce</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">E-Commerce</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title"></p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20095025.png"
+                class="p-image"
+                alt=""
+              />
+              <strong>Keyboard</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Keyboard</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    <strong
+                      >In this project a created a wood design keyboard using
+                      HTML and CSS</strong
+                    >
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img
+                src="https://jayden220.github.io/hostedImages/images/Screenshot%202024-07-03%20095210.png"
+                class="p-image"
+                alt=""
+              />
+              <strong>RGB To Hexadecimal</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Project Name</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    This is a converter that changes RGB color codes into a
+                    Hexadecimal value
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img src="" alt="" />
+              <strong>Calculator</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Project Name</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    <strong></strong>
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="back">
+            <div class="back-content">
+              <img src="" alt="" />
+              <strong>Keyboard</strong>
+            </div>
+          </div>
+          <div class="front">
+            <div class="img">
+              <div class="circle"></div>
+              <div class="circle" id="right"></div>
+              <div class="circle" id="bottom"></div>
+            </div>
+
+            <div class="front-content">
+              <small class="badge">Project Name</small>
+              <div class="description">
+                <div class="title">
+                  <p class="title">
+                    <strong></strong>
+                  </p>
+                </div>
+                <p class="card-footer">
+                  Html &nbsp; | <a href="" target="blank"><button>view</button></a>  <a href="" target="blank"><button>git</button></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-<div class="card">
-                        <div class="content">
-                        <div class="back">
-                        <div class="back-content">
-                        <img src="" alt="">
-                        <strong>Hulu Clone</strong>
-                        </div>
-                        </div>
-                        <div class="front">
-
-                        <div class="img">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
-
-                        <div class="front-content">
-                        <small class="badge">Project Name</small>
-                        <div class="description">
-                        <div class="title">
-                            <p class="title">
-                            <strong>This is an HTML project where I created a clone of the HULU streaming website",
-                            </strong>
-                            </p>
-                        </div>
-                        <p class="card-footer">
-                            Html &nbsp; | <a href=""><button>View</button></a>
-                        </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-    </div>
-<div class="card">
-                        <div class="content">
-                        <div class="back">
-                        <div class="back-content">
-                        <img src="" alt="">
-                        <strong>Calculator</strong>
-                        </div>
-                        </div>
-                        <div class="front">
-
-                        <div class="img">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
-
-                        <div class="front-content">
-                        <small class="badge">Project Name</small>
-                        <div class="description">
-                        <div class="title">
-                            <p class="title">
-                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae atque. Suscipit harum impedit numquam ab. Error facere fuga reiciendis iure, aut corporis ratione eum cumque dolore iste animi praesentium.</strong>
-                            </p>
-                        </div>
-                        <p class="card-footer">
-                            Html &nbsp; | <a href=""><button>View</button></a>
-                        </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-    </div>
-                        <div class="card">
-                        <div class="content">
-                        <div class="back">
-                        <div class="back-content">
-                        <img src="" alt="">
-                        <strong>Calculator</strong>
-                        </div>
-                        </div>
-                        <div class="front">
-
-                        <div class="img">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
-
-                        <div class="front-content">
-                        <small class="badge">Project Name</small>
-                        <div class="description">
-                        <div class="title">
-                            <p class="title">
-                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae atque. Suscipit harum impedit numquam ab. Error facere fuga reiciendis iure, aut corporis ratione eum cumque dolore iste animi praesentium.</strong>
-                            </p>
-                        </div>
-                        <p class="card-footer">
-                            Html &nbsp; | <a href=""><button>View</button></a>
-                        </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-</div>
-<div class="card">
-<div class="content">
-<div class="back">
-<div class="back-content">
-<img src="" alt="">
-<strong>Calculator</strong>
-</div>
-</div>
-<div class="front">
-
-<div class="img">
-<div class="circle">
-</div>
-<div class="circle" id="right">
-</div>
-<div class="circle" id="bottom">
-</div>
-</div>
-
-<div class="front-content">
-<small class="badge">Project Name</small>
-<div class="description">
-  <div class="title">
-    <p class="title">
-      <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae atque. Suscipit harum impedit numquam ab. Error facere fuga reiciendis iure, aut corporis ratione eum cumque dolore iste animi praesentium.</strong>
-    </p>
   </div>
-  <p class="card-footer">
-                            Html &nbsp; | <a href=""><button>View</button></a>
-                        </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-                      <div class="card">
-                      <div class="content">
-                      <div class="back">
-                      <div class="back-content">
-                      <img src="" alt="">
-                      <strong>Calculator</strong>
-                      </div>
-                      </div>
-                      <div class="front">
-
-                      <div class="img">
-                      <div class="circle">
-                      </div>
-                      <div class="circle" id="right">
-                      </div>
-                      <div class="circle" id="bottom">
-                      </div>
-                      </div>
-
-                      <div class="front-content">
-                      <small class="badge">Project Name</small>
-                      <div class="description">
-                        <div class="title">
-                          <p class="title">
-                            <strong></strong></p>
-                        </div>
-                        <p class="card-footer">
-                                                  Html &nbsp; | <a href=""><button>View</button></a>
-                                              </p>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      <div class="card">
-                      <div class="content">
-                      <div class="back">
-                      <div class="back-content">
-                      <img src="" alt="">
-                      <strong>Calculator</strong>
-                      </div>
-                      </div>
-                      <div class="front">
-
-                      <div class="img">
-                      <div class="circle">
-                      </div>
-                      <div class="circle" id="right">
-                      </div>
-                      <div class="circle" id="bottom">
-                      </div>
-                      </div>
-
-                      <div class="front-content">
-                      <small class="badge">Project Name</small>
-                      <div class="description">
-                        <div class="title">
-                          <p class="title">
-                            <strong></strong></p>
-                        </div>
-                        <p class="card-footer">
-                                                  Html &nbsp; | <a href=""><button>View</button></a>
-                                              </p>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      <div class="card">
-                      <div class="content">
-                      <div class="back">
-                      <div class="back-content">
-                      <img src="" alt="">
-                      <strong>Calculator</strong>
-                      </div>
-                      </div>
-                      <div class="front">
-
-                      <div class="img">
-                      <div class="circle">
-                      </div>
-                      <div class="circle" id="right">
-                      </div>
-                      <div class="circle" id="bottom">
-                      </div>
-                      </div>
-
-                      <div class="front-content">
-                      <small class="badge">Project Name</small>
-                      <div class="description">
-                        <div class="title">
-                          <p class="title">
-                            <strong></strong></p>
-                        </div>
-                        <p class="card-footer">
-                                                  Html &nbsp; | <a href=""><button>View</button></a>
-                                              </p>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      <div class="card">
-                      <div class="content">
-                      <div class="back">
-                      <div class="back-content">
-                      <img src="" alt="">
-                      <strong>Calculator</strong>
-                      </div>
-                      </div>
-                      <div class="front">
-
-                      <div class="img">
-                      <div class="circle">
-                      </div>
-                      <div class="circle" id="right">
-                      </div>
-                      <div class="circle" id="bottom">
-                      </div>
-                      </div>
-
-                      <div class="front-content">
-                      <small class="badge">Project Name</small>
-                      <div class="description">
-                        <div class="title">
-                          <p class="title">
-                            <strong></strong></p>
-                        </div>
-                        <p class="card-footer">
-                                                  Html &nbsp; | <a href=""><button>View</button></a>
-                                              </p>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-</div>
-
-</div>
-    
-    
-  </template>
+</template>
   
   <script>
-  export default {
-    // ...
-  }
-  </script>
+export default {
+  // ...
+};
+</script>
   
   <style scoped>
-.project-list{
-    /* margin: 0 auto; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5em;
+.project-list {
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
 }
-  
+
 .card {
   /* overflow: visible; */
   width: 390px;
   height: 354px;
   transition: all 0.3s ease;
+}
+.p-image {
+  margin: 2em 0;
+  width: 200px;
+  height: 200px;
 }
 
 .content {
@@ -353,7 +365,8 @@
   border-radius: 5px;
 }
 
-.front, .back {
+.front,
+.back {
   background-color: #151515;
   position: absolute;
   width: 100%;
@@ -375,7 +388,7 @@
 
 .back::before {
   position: absolute;
-  content: ' ';
+  content: " ";
   display: block;
   width: 160px;
   height: 160%;
@@ -511,8 +524,6 @@
   }
 }
 
- 
-
 @media (max-width: 480px) {
   .card {
     width: 50em;
@@ -548,16 +559,8 @@
   }
 }
 
-
 /* skills card */
-  .project-container {
-    overflow-y: auto;
-  }
-  
-
-  
-
-
-  
-
-  </style>
+.project-container {
+  overflow-y: auto;
+}
+</style>
