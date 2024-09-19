@@ -81,7 +81,8 @@ export default {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: radial-gradient(circle at 81.9% 53.5%, rgb(173, 53, 53) 16.3%, rgb(240, 60, 60) 100.2%);
+  /* color:  linear-gradient(45deg, #ffbc00, #ff0058); */
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
   transition: all .5s ease;
   opacity: 0;
   transform: scaleX(0);
@@ -101,10 +102,13 @@ export default {
  a:hover::after {
   opacity: 1;
   transform: scaleX(1);
+  color: #ff0058;
+
 }
  a:hover {
-  color: rgb(240, 60, 60);
- 
+  color: linear-gradient(45deg, #ffbc00, #ff0058); 
+  
+  /* filter: blur(30px); */
 
 } 
 @media only screen and (max-width: 680px) {

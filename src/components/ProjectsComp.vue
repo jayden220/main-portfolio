@@ -22,15 +22,51 @@
                         </div>
 
                         <div class="front-content">
+                        <small class="badge">Calculator</small>
+                        <div class="description">
+                        <div class="title">
+                            <p class="title">
+                            <strong>I used Javascript, CSS and HTML to create a functional calculator"</strong>
+                            </p>
+                        </div>
+                        <p class="card-footer">
+                            Html &nbsp; | <button>view</button>
+                        </p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+    </div>
+<div class="card">
+                        <div class="content">
+                        <div class="back">
+                        <div class="back-content">
+                        <img src="" alt="">
+                        <strong>Hulu Clone</strong>
+                        </div>
+                        </div>
+                        <div class="front">
+
+                        <div class="img">
+                        <div class="circle">
+                        </div>
+                        <div class="circle" id="right">
+                        </div>
+                        <div class="circle" id="bottom">
+                        </div>
+                        </div>
+
+                        <div class="front-content">
                         <small class="badge">Project Name</small>
                         <div class="description">
                         <div class="title">
                             <p class="title">
-                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae atque. Suscipit harum impedit numquam ab. Error facere fuga reiciendis iure, aut corporis ratione eum cumque dolore iste animi praesentium.</strong>
+                            <strong>This is an HTML project where I created a clone of the HULU streaming website",
+                            </strong>
                             </p>
                         </div>
                         <p class="card-footer">
-                            Html &nbsp; | &nbsp; 1 Serving
+                            Html &nbsp; | <a href=""><button>View</button></a>
                         </p>
                         </div>
                         </div>
@@ -65,42 +101,7 @@
                             </p>
                         </div>
                         <p class="card-footer">
-                            Html &nbsp; | &nbsp; 1 Serving
-                        </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-    </div>
-<div class="card">
-                        <div class="content">
-                        <div class="back">
-                        <div class="back-content">
-                        <img src="" alt="">
-                        <strong>Calculator</strong>
-                        </div>
-                        </div>
-                        <div class="front">
-
-                        <div class="img">
-                        <div class="circle">
-                        </div>
-                        <div class="circle" id="right">
-                        </div>
-                        <div class="circle" id="bottom">
-                        </div>
-                        </div>
-
-                        <div class="front-content">
-                        <small class="badge">Project Name</small>
-                        <div class="description">
-                        <div class="title">
-                            <p class="title">
-                            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae atque. Suscipit harum impedit numquam ab. Error facere fuga reiciendis iure, aut corporis ratione eum cumque dolore iste animi praesentium.</strong>
-                            </p>
-                        </div>
-                        <p class="card-footer">
-                            Html &nbsp; | &nbsp; 1 Serving
+                            Html &nbsp; | <a href=""><button>View</button></a>
                         </p>
                         </div>
                         </div>
@@ -135,7 +136,7 @@
                             </p>
                         </div>
                         <p class="card-footer">
-                            Html &nbsp; | &nbsp; 1 Serving
+                            Html &nbsp; | <a href=""><button>View</button></a>
                         </p>
                         </div>
                         </div>
@@ -170,40 +171,151 @@
     </p>
   </div>
   <p class="card-footer">
-    Html &nbsp; | &nbsp; 1 Serving
-  </p>
+                            Html &nbsp; | <a href=""><button>View</button></a>
+                        </p>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<!-- <div class="card-container">
-<div class="card">
+                      <div class="card">
+                      <div class="content">
+                      <div class="back">
+                      <div class="back-content">
+                      <img src="" alt="">
+                      <strong>Calculator</strong>
+                      </div>
+                      </div>
+                      <div class="front">
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
-</div>
-<div class="card">
+                      <div class="img">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                      </div>
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
-</div>
-<div class="card">
+                      <div class="front-content">
+                      <small class="badge">Project Name</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                            <strong></strong></p>
+                        </div>
+                        <p class="card-footer">
+                                                  Html &nbsp; | <a href=""><button>View</button></a>
+                                              </p>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="card">
+                      <div class="content">
+                      <div class="back">
+                      <div class="back-content">
+                      <img src="" alt="">
+                      <strong>Calculator</strong>
+                      </div>
+                      </div>
+                      <div class="front">
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
-</div>
-<div class="card">
+                      <div class="img">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                      </div>
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
-</div>
-<div class="card">
+                      <div class="front-content">
+                      <small class="badge">Project Name</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                            <strong></strong></p>
+                        </div>
+                        <p class="card-footer">
+                                                  Html &nbsp; | <a href=""><button>View</button></a>
+                                              </p>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="card">
+                      <div class="content">
+                      <div class="back">
+                      <div class="back-content">
+                      <img src="" alt="">
+                      <strong>Calculator</strong>
+                      </div>
+                      </div>
+                      <div class="front">
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
-</div>
-<div class="card">
+                      <div class="img">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                      </div>
 
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas rem sit explicabo accusantium voluptas distinctio! Dolorem quam cupiditate mollitia non dolor suscipit dolorum, quas quidem iste aspernatur, tempora officiis praesentium.</p>
+                      <div class="front-content">
+                      <small class="badge">Project Name</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                            <strong></strong></p>
+                        </div>
+                        <p class="card-footer">
+                                                  Html &nbsp; | <a href=""><button>View</button></a>
+                                              </p>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="card">
+                      <div class="content">
+                      <div class="back">
+                      <div class="back-content">
+                      <img src="" alt="">
+                      <strong>Calculator</strong>
+                      </div>
+                      </div>
+                      <div class="front">
+
+                      <div class="img">
+                      <div class="circle">
+                      </div>
+                      <div class="circle" id="right">
+                      </div>
+                      <div class="circle" id="bottom">
+                      </div>
+                      </div>
+
+                      <div class="front-content">
+                      <small class="badge">Project Name</small>
+                      <div class="description">
+                        <div class="title">
+                          <p class="title">
+                            <strong></strong></p>
+                        </div>
+                        <p class="card-footer">
+                                                  Html &nbsp; | <a href=""><button>View</button></a>
+                                              </p>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
 </div>
-</div> -->
+
 </div>
     
     
@@ -215,7 +327,7 @@
   }
   </script>
   
-  <style>
+  <style scoped>
 .project-list{
     /* margin: 0 auto; */
     display: flex;
@@ -267,7 +379,8 @@
   display: block;
   width: 160px;
   height: 160%;
-  background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+  /* background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent); */
   animation: rotation_481 5000ms infinite linear;
 }
 

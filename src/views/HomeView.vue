@@ -7,14 +7,14 @@
       <section id="about">
         <about-comp/>
       </section>
+      <section id="skills">
+        <skills-comp/>
+      </section>
 
       <section id="education">
       <education-comp/>
       </section>
 
-      <section id="skills">
-        <skills-comp/>
-      </section>
 
       <section id="projects">
         <projects-comp/>
