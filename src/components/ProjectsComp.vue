@@ -2,9 +2,7 @@
   <div class="project-container">
     <div class="project-list">
 
-
-
-
+      <h3>My Work</h3>
       <!-- card 1 -->
       <div class="card">
         <div class="content">
@@ -335,6 +333,9 @@ export default {
 </script>
   
   <style scoped>
+  .project-container{
+    background-color: black;
+  }
 .project-list {
   /* margin: 0 auto; */
   display: flex;

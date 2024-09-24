@@ -117,9 +117,11 @@ h1{
 
 .form div {
   display: flex;
+  flex-direction: column;
   max-width: 28rem;
   margin-top: 1rem;
-  column-gap: 0.5rem;
+  column-gap: 0.2rem;
+
 }
 
 .form div input {
