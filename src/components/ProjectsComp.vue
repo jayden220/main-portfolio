@@ -34,7 +34,7 @@
                     >
                   </p>
                 </div>
-                <p class="card-footer">Html JavaScript | <a href="https://calculator-project-wine.vercel.app/" target="blank"><button>view</button><a href="https://github.com/jayden220/calculator-project.git" target="blank"><button>git</button></a></a></p>
+                <p class="card-footer">Html JavaScript </p>| <a href="https://calculator-project-wine.vercel.app/" target="blank"><button>view</button></a><a href="https://github.com/jayden220/calculator-project.git" target="blank"><button>git</button></a>
               </div>
             </div>
           </div>

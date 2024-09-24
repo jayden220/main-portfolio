@@ -24,18 +24,14 @@
                 </div>
             </div>
         <div class="form-container">
-            <form action="https://formspree.io/f/mdoqynke" method="POST">
-                <p>Leave me a message</p>
-
-                <input type="text" name="name" placeholder="Name" required>
-                <br>
-                <input type="email" name="email" placeholder="Email" required>
-                <br>
-                <input type="number" name="cellnumber" placeholder="Phone" required>
-                <br>
-                <textarea name="message" placeholder="Message" required></textarea>
-                <br>
-                <button type="submit">Submit</button>
+            <form action="https://formspree.io/f/mdoqynke" method="POST" class="form">
+    
+            <span class="title">Subscribe to our newsletter.</span>
+            <p class="description">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>
+            <div>
+                <input placeholder="Enter your email" type="email" name="email" id="email-address">
+                <button type="submit">Subscribe</button>
+            </div>
             </form>
         </div>    
         </div>
@@ -85,19 +81,84 @@ h1{
     border-radius: 20px;
     padding: 2em 5.5em;
 }
-form{
+/* form{
     width: 30em;
     margin-left: -5em;
     border: 2px solid aliceblue;
     border-radius: 20px;
 
+} */
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+  display: flex;
+  flex-direction: column;
+  background: #606c88;
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+  background: linear-gradient(to right, #3f4c6b, #606c88);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
 }
-.form-container{
+
+.title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+.description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(209 213 219);
+}
+
+.form div {
+  display: flex;
+  max-width: 28rem;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
+}
+
+.form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: rgb(255 255 255 );
+  padding: 0.5rem 0.875rem;
+  background-color: rgb(255 255 255 / 0.05);
+  border: 1px solid rgba(253, 253, 253, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
+}
+
+.form div input::placeholder {
+  color: rgb(216, 212, 212);
+}
+
+.form div input:focus {
+  border: 1px solid rgb(99 102 241);
+}
+
+.form div button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  /* padding: 0.625rem 0.875rem; */
+  background-color: rgb(99 102 241);
+  border-radius: 0.375rem;
+  border: none;
+  outline: none;
+}
+/* .form-container{
     display: flex;
     flex-wrap: wrap;
     color: aliceblue;
-    /* margin: 0 170px; */
-}
+    margin: 0 170px;
+} */
 input{
     margin: 2em 0;
     border-radius:5% ;

@@ -70,7 +70,7 @@ export default {
     }
     .tech-skills{
         display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(20cqi,1fr)) ;
+        grid-template-columns: repeat(auto-fit, minmax(20em,1fr)) ;
         place-items: center;
         gap: 1.5cqi;
     }
