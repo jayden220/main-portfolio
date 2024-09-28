@@ -30,10 +30,26 @@ export default {
   font-size: 24px;
   display: block;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 775px){
   .about-content{
-    font-size: 12px;
+    font-size: 19.6px;
   }
+  .about-container{
+        height: 143vh;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+
+  } 
+@media only screen and (max-width: 400px){
+  .about-content{
+    font-size: 14.6px;
+  }
+  .about-container{
+        height: 150vh;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
 
 }
 </style>

@@ -66,6 +66,6 @@ export default {
 </script>
 <style>
 section{
-  margin-top: 2.4em;
+  margin-top: 0 ;
 }
 </style>

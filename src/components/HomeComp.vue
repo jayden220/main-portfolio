@@ -3,7 +3,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="image-wrapper">
-          <img src="your-profile-image.jpg" alt="Your Profile" class="profile-img" />
+          <img src="https://jayden220.github.io/hostedImages/images/20240422_115542.jpg" alt="Your Profile" class="profile-img" />
         </div>
         <div class="text-content">
           <h1>Hi, I am Jayden.</h1>
@@ -155,6 +155,7 @@ button:hover::after {
 
 .project-btn {
   background-color: transparent;
+  margin-right: 1em;
 }
 
 .talk-btn {
@@ -195,11 +196,14 @@ button:hover::after {
 
   .buttons {
     flex-direction: column;
-    align-items: center; /* Center buttons vertically */
+    align-items: center;
+    /* margin: 0 2em; */
   }
 
   .project-btn {
     margin-bottom: 10px;
+    margin-right: 0;
+    border-radius: 25px ;
   }
 }
 

@@ -1,8 +1,10 @@
 <template>
+   
   <div class="project-container">
+    <h3 class="heading">My work</h3>
     <div class="project-list">
 
-      <h3>My Work</h3>
+     
       <!-- card 1 -->
       <div class="card">
         <div class="content">
@@ -333,8 +335,16 @@ export default {
 </script>
   
   <style scoped>
+  *{
+    margin: 0 0;
+  }
+
+  .heading{
+    margin: 3em 3em;
+  }
   .project-container{
     background-color: black;
+    height: 220vh;
   }
 .project-list {
   /* margin: 0 auto; */
@@ -350,6 +360,7 @@ export default {
   width: 390px;
   height: 354px;
   transition: all 0.3s ease;
+  margin-bottom: 1em;
 }
 .p-image {
   margin: 2em 0;
@@ -395,7 +406,7 @@ export default {
   height: 160%;
   background: linear-gradient(45deg, #ffbc00, #ff0058);
   /* background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent); */
-  animation: rotation_481 5000ms infinite linear;
+  animation: rotation_481 5000ms infinite alternate-reverse;
 }
 
 .back-content {
@@ -410,6 +421,7 @@ export default {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin: 1em 1em;
 }
 
 .card:hover .content {
@@ -558,6 +570,10 @@ export default {
     left: 100px;
     top: -50px;
   }
+  .project-container {
+  overflow-y: auto;
+  /* height: ; */
+}
 }
 
 /* skills card */

@@ -122,18 +122,18 @@ export default {
 }
 .soft-skills {
     display: grid;
-    grid-template-columns: repeat(4, minmax(20em, .5fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, .5fr));
     place-items: center;
     gap: 1.5cqi;
 }
 
 img {
-    height: 6em;
+    height: 3em;
 }
 
 .card {
     position: relative;
-    width: 190px;
+    width: 100px;
     color: #fff;
     transition: 0.5s;
     border-radius: 20px;
@@ -191,7 +191,7 @@ img {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .tech-skills {
         grid-template-columns: repeat(3, 1fr); /* Adjusts to fit 3 cards in a row */
         gap: 0.8cqi; /* Reduced gap between cards */
@@ -202,11 +202,12 @@ img {
     }
 
     .card {
-        width: 60px; /* Smaller card width to fit three in a row */
+        width: 40px; /* Smaller card width to fit three in a row */
     }
 
     img {
-        height: 2em; /* Smaller images inside the cards */
+        height: 1em;
+        width: 1em; /* Smaller images inside the cards */
     }
 }
 </style>
