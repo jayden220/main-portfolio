@@ -28,9 +28,9 @@
             anything that you want to run past me. You can contact anytime at 24/7.
           </p>
           <div class="contact-details">
-            <p>+01 123 654 8096</p>
-            <p>gerolddesign@mail.com</p>
-            <p>Warne Park Street Pine, FL 33157, New York</p>
+            <p>+27 78 291 980</p>
+            <p>jaydenvanrooyen87@@mail.com</p>
+            <p></p>
           </div>
         </div>
       </div>
