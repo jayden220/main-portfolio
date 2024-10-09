@@ -41,7 +41,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
   
   #contact {
-    background-color: #0f0d2f;
+    background-color: #000000;
     color: #fff;
     padding: 50px 20px;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +73,9 @@
   }
   
   .highlight {
-    color: #a87dff;
+    background: linear-gradient(4deg, #ffbc00, #ff0058);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
   .contact-description {
@@ -104,7 +106,7 @@
   button {
     width: 100%;
     padding: 12px;
-    background-color: #a87dff;
+
     border: none;
     color: #fff;
     font-size: 1rem;
@@ -114,7 +116,9 @@
   }
   
   button:hover {
-    background-color: #8455cc;
+    background-color: linear-gradient(4deg, #ffbc00, #ff0058);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .contact-info p {
