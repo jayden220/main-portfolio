@@ -1,7 +1,7 @@
 <template>
     <div class="main-container">
       <div class="edu-container">
-        <h3>Education</h3>  
+        <h3 class="heading">Education</h3>  
         <div class="education">
           <div class="card">
             <div class="card-inner">
@@ -83,7 +83,12 @@ export default {
   flex-direction: column;
   text-align: left;
   width: 80%;
-  margin: 17em auto;
+  margin: 10em auto;
+}
+.heading{
+  /* margin-top: 1em ;
+   */
+   padding-top: 5em;
 }
 .card {
   width: auto;

@@ -206,6 +206,35 @@ button:hover::after {
     border-radius: 25px ;
   }
 }
+@media (min-width: 1500px) {
+  .hero-section {
+    min-height: 80vh; /* Reduce the height to make it more proportional */
+  }
+
+  .container {
+    max-width: 1400px; /* Increase the max-width to make the content more prominent */
+  }
+
+  .hero-content {
+  transform: scale(1.2); /* Scale up the hero content */
+}
+
+  .text-content {
+    font-size: 1.5rem; /* Increase the font size to make it more readable */
+  }
+
+  h1 {
+    font-size: 3.5rem; /* Increase the font size of the heading */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* Increase the font size of the subheading */
+  }
+
+  .profile-img {
+    max-width: 400px; /* Increase the max-width of the profile image */
+  }
+}
 
 /* Additional media queries for smaller screens */
 @media (max-width: 768px) {

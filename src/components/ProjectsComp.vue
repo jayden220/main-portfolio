@@ -389,8 +389,9 @@ export default {
 
 <style scoped>
 .heading {
-  margin: 3em 3em;
+  /* margin: 3em 3em; */
   font-size: 3em;
+  color: white;
 }
 
 .project-container {

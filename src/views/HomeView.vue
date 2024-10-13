@@ -69,6 +69,6 @@ section{
   margin-top: 00 ;
 }
 #contact{
-  margin-top: 2em;
+  margin-top: 0em;
 }
 </style>
