@@ -68,4 +68,7 @@ export default {
 section{
   margin-top: 00 ;
 }
+#contact{
+  margin-top: 2em;
+}
 </style>

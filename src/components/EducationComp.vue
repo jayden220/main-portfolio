@@ -3,20 +3,35 @@
       <div class="edu-container">
         <h3>Education</h3>  
         <div class="education">
-          <div>
-            <h1 class="edu-head">Life Choices Academy</h1>
-            <p class="edu-date">April - Pressent</p>
-            <p class="edu-line"></p>
-            <br>
-          </div>
-          <div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <p class="edu-head">Life Choices Academy</p>
+                <p class="edu-date">April - Pressent</p>
+              </div>
+              <div class="card-back">
             <p class="edu-content">I am currently enrolled in a comprehensive coding program that emphasizes software development, web development, and advanced programming languages. This program not only enhances my technical skills but also focuses on my professional and personal development. I am excited to apply my learning to real-world projects and pursue a career in the dynamic field of technology.</p>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="education">
-          <div class="edu-block">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
             <h1 class="edu-head">Northlink College</h1>
             <p class="edu-date">January - December 2023</p>
+            </div>
+            <div class="card-back">
+              <p class="edu-content">I began my IT journey at Northlink College, earning certifications in Comptia A+, N+, Cisco, and ICDL cybersecurity. These built my skills in hardware, networking, IT operations, and cybersecurity. The hands-on training prepared me for a dynamic IT career, and I’m eager to apply my skills while exploring cloud computing and new technologies.</p>
+
+            </div>
+          </div>
+        </div>
+
+          <!-- <div class="edu-block"> -->
+            <!-- <p class="edu-date">January - December 2023</p>
             <p class="edu-line"></p>
             <br>
           </div>
@@ -28,113 +43,154 @@
               <li>Comptia IT Operations Specialist Stackable Certification</li>
               <li>Cisco Cybersecurity</li>
             </ul>
-          </div>
+          </div> -->
         </div>
+
         <div class="education">
-          <div>
-            <div class="card">
-  <!-- <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg> -->
-  <div class="card__content">
-    <div class="card__title">
-      <h1 class="edu-head">HTS Bellville</h1>
-    </div>
-    <p class="card__description"></p>
-  </div>
-</div>
-           
-            <p class="edu-date">2018 - 2022</p>
-            <p class="edu-line"></p>
-            <br>
-          </div>
-          <div>
-            <p class="edu-content">I successfully completed my Bachelor's matriculation. Beyond academics, I actively engaged in diverse activities, including competitive chess and Mixed Martial Arts (MMA). These pursuits not only enriched my personal development but also instilled in me valuable skills such as strategic thinking, discipline, and resilience.Additionally, I was a dedicated member of the school's media team, where I honed my communication and creative skills through various projects and responsibilities. My time at Bellville Technical High School not only prepared me academically but also fostered a well-rounded approach to learning and personal growth, laying a solid foundation for my future endeavors.</p>
-          </div>
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <p class="edu-head">HTS Bellville</p>
+                    <p class="edu-date">2018 - 2022</p>
+                  </div>
+                  <div class="card-back">
+                    <p class="edu-content">I completed my Bachelor's matriculation, actively participating in chess, MMA, and the school's media team. These activities developed my strategic thinking, discipline, resilience, and communication skills. My time at Bellville Technical High School prepared me academically and fostered a well-rounded approach to learning and growth, building a strong foundation for my future.</p>
+                  </div>
+                </div>
+              </div>
         </div>
-      </div>
     </div>
+</div>
 </template>
 <script>
 export default {
     
 }
 </script>
-<style>
+<style scoped>
 .main-container{
   color: beige;
     /* height: 100vh; */
     background-color: rgb(0, 0, 0);
+  font-family: "Gilda Display", serif;
+
+}
+.edu-container{
+  height: 390vh;
 }
 .education{
   display: flex;
   flex-direction: column;
   text-align: left;
   width: 80%;
-  margin: 0 auto;
+  margin: 17em auto;
 }
 .card {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
-  border-radius: 10px;
+  width: auto;
+  height: 400px;
+  perspective: 1000px;
+}
+.card {
+  /* width: 190px; */
+  /* height: 254px; */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 5em;
+  /* padding: 0px 15px; */
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+  /* transition-duration: .2s; */
+  /* background: linear-gradient(0deg, #000, #272727); */
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+
 }
 
-.card svg {
-  width: 48px;
-  fill: #333;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.card:hover {
-  transform: rotate(0deg) scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card__content {
+.card:before, .card:after {
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  left: -2px;
+  top: -2px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  /* animation: steam 20s linear infinite; */
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.card:after {
+  filter: blur(100px);
+}
+
+.card-inner {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #fff;
-  opacity: 0;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
 }
 
-.card:hover .card__content {
-  transform: translate(-50%, -50%) rotate(0deg);
-  opacity: 1;
+.card:hover .card-inner {
+  transform: rotateY(180deg);
 }
 
-.card__title {
-  margin: 0;
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid #000000;
+  border-radius: 10px;
+  justify-content: center;
   font-size: 24px;
-  color: #333;
-  font-weight: 700;
+  transform: rotateY(0deg);
 }
 
-.card__description {
-  margin: 10px 0 0;
-  font-size: 14px;
-  color: #777;
-  line-height: 1.4;
-}
-
-.card:hover svg {
-  scale: 0;
-  transform: rotate(-45deg);
+.card-back {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #000000;
+  border-radius: 10px;
+  justify-content: center;
+  /* font-size: 24px; */
+  transform: rotateY(180deg);
 }
 .edu-head{
   font-size: 60px;
-  margin-top: 2em;
+  margin-top: 0em;
 
   /* font-family: ; gilda display  */
 }
@@ -153,26 +209,83 @@ export default {
   /* padding: 0; */
   /* margin: 5px;   */
 }
-@media only screen and (max-width: 767px){
-  .edu-head{
-    font-size: 36px;
+/* For screens larger than 1920px */
+@media only screen and (min-width: 1920px) {
+  .edu-container {
+    height: 550vh;
   }
-  .edu-content{
+  .edu-head {
+    font-size: 80px;
+  }
+  .edu-content {
+    font-size: 30px;
+  }
+  .edu-date {
     font-size: 18px;
   }
-  .edu-date{
+}
+
+/* For screens larger than 1440px */
+@media only screen and (min-width: 1440px) {
+  .edu-container {
+    height: 500vh;
+  }
+  .edu-head {
+    font-size: 70px;
+  }
+  .edu-content {
+    font-size: 26px;
+  }
+  .edu-date {
+    font-size: 16px;
+  }
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+  .edu-container {
+    height: 450vh;
+  }
+  .edu-head {
+    font-size: 60px;
+  }
+  .edu-content {
+    font-size: 22px;
+  }
+  .edu-date {
+    font-size: 14px;
+  }
+}
+
+/* For landscape orientation on tablets and mobile devices */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .edu-container {
+    height: 350vh;
+  }
+  .edu-head {
+    font-size: 40px;
+  }
+  .edu-content {
+    font-size: 18px;
+  }
+  .edu-date {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 426px){
-  .edu-head{
-    font-size: 30px;
+
+/* For portrait orientation on tablets and mobile devices */
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .edu-container {
+    height: 400vh;
   }
-  .edu-content{
-    font-size: 12px;
+  .edu-head {
+    font-size: 36px;
   }
-  .edu-date{
-    font-size: 6px;
+  .edu-content {
+    font-size: 16px;
+  }
+  .edu-date {
+    font-size: 10px;
   }
 }
 </style>

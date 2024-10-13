@@ -26,6 +26,7 @@ export default {
 .navbar{
     color: black;
     background-color: black;
+    height: 100px;
 }
 
 .brand{
@@ -39,6 +40,7 @@ export default {
 .nav-conent{
     display: flex;
     justify-content: center;
+    margin-bottom: 3em ;
 }
 .container-fluid{
     display: flex;
