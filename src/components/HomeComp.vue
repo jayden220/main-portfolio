@@ -12,7 +12,10 @@
             I design and code beautifully simple things and I love what I do. Just simple like that!
           </p>
           <div class="buttons">
+            <a href="">
+            </a>
             <button class="project-btn">View my work</button>
+              
             <button class="talk-btn">Let's Talk!</button>
           </div>
         </div>
@@ -178,7 +181,7 @@ button:hover::after {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   h2 {

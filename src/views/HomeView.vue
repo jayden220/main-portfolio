@@ -68,6 +68,9 @@ export default {
 section{
   margin-top: 00 ;
 }
+/* div{
+  overflow-y: hidden;
+} */
 #contact{
   margin-top: 0em;
 }

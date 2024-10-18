@@ -104,7 +104,7 @@ export default {
   gap: 5em;
   /* padding: 0px 15px; */
   background-color: red;
-  border-radius: 10px;
+  border-radius: 0px;
   border: none;
   color: white;
   position: relative;
@@ -121,7 +121,7 @@ export default {
   position: absolute;
   left: -2px;
   top: -2px;
-  border-radius: 10px;
+  border-radius: 0px;
   background: linear-gradient(45deg, #ffbc00, #ff0058);
 
   background-size: 400%;
@@ -176,7 +176,7 @@ export default {
   flex-direction: column;
   align-items: center;
   border: 10px solid #000000;
-  border-radius: 10px;
+  border-radius: 0px;
   justify-content: center;
   font-size: 24px;
   transform: rotateY(0deg);
@@ -187,7 +187,7 @@ export default {
   color: #fff;
   display: flex;
   align-items: center;
-  border: 10px solid #000000;
+  border: 0px solid #000000;
   border-radius: 10px;
   justify-content: center;
   /* font-size: 24px; */

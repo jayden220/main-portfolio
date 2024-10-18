@@ -136,7 +136,7 @@ img {
     width: 100px;
     color: #fff;
     transition: 0.5s;
-    border-radius: 20px;
+    border-radius: 0px;
     cursor: pointer;
     margin: 1em 0;
 }
@@ -153,7 +153,7 @@ img {
     top: 0;
     left: 0;
     background: linear-gradient(45deg, #ffbc00, #ff0058);
-    border-radius: 1.2em;
+    border-radius: 0em;
 }
 
 .card::after {
@@ -174,7 +174,7 @@ img {
     right: 6px;
     bottom: 6px;
     z-index: 2;
-    border-radius: 1em;
+    border-radius: 0em;
 }
 
 .card .content {
