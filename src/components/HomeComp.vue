@@ -2,21 +2,21 @@
   <section class="hero-section">
     <div class="container">
       <div class="hero-content">
+        
         <div class="image-wrapper">
           <img src="https://jayden220.github.io/hostedImages/images/20240422_115542.jpg" alt="Your Profile" class="profile-img" />
         </div>
         <div class="text-content">
           <h1>Hi, I am Jayden.</h1>
           <h2>A creative designer based in Belhar, Cape Town</h2>
-          <p>
-            I design and code beautifully simple things and I love what I do. Just simple like that!
-          </p>
-          <div class="buttons">
-            <a href="">
-            </a>
-            <button class="project-btn">View my work</button>
-              
-            <button class="talk-btn">Let's Talk!</button>
+                  <p>
+                    I design and code beautifully simple things and I love what I do. Just simple like that!
+                  </p>
+          <div class="buttonsgroup">
+       
+
+<a class="btn" href="#projects">View My Work</a>
+<a class="btn" href="#contact">Lets Talk</a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5em;
+  gap: 10em;
   padding: 20px;
   max-width: 1200px;
   width: 100%;
@@ -56,7 +56,6 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
 }
 
 .image-wrapper {
@@ -69,9 +68,8 @@ export default {
 }
 
 .profile-img {
-  border-radius: 50%;
   width: 100%; /* Make the image responsive */
-  max-width: 300px; /* Maintain max size */
+  max-width: 200px; /* Maintain max size */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -98,63 +96,51 @@ p {
   margin-top: 10px;
 }
 
-.buttons {
+.buttonsgroup {
   margin-top: 20px;
   display: flex;
+  gap: 1em;
   justify-content: center; /* Center buttons */
   flex-wrap: wrap; /* Wrap buttons on small screens */
+
+}
+.btn {
+ display: inline-block;
+ padding: 0.9rem 1.8rem;
+ font-size: 16px;
+ font-weight: 700;
+ color: white;
+ border: 3px solid rgb(255, 255, 255);
+ cursor: pointer;
+ position: relative;
+ background-color: transparent;
+ text-decoration: none;
+ overflow: hidden;
+ z-index: 1;
+ font-family: inherit;
+ border-radius: 0px;
 }
 
-button {
-  --border-radius: 15px;
-  --border-width: 4px;
-  appearance: none;
-  position: relative;
-  padding: 1em 2em;
-  border: 0;
-  border-radius: 20px;
-  background-color: #000000;
-  font-family: "Roboto", Arial, "Segoe UI", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: #fff;
-  z-index: 2;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
+.btn::before {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 0px;
+  background: linear-gradient(4deg, #ffbc00, #ff0058);
+ transform: translateX(-100%);
+ transition: all .3s;
+ z-index: -1;
 }
 
-button::after {
-  --m-i: linear-gradient(#000, #000);
-  --m-o: content-box, padding-box;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding: var(--border-width);
-  background: linear-gradient(45deg, #ffbc00, #ff0058);
-  -webkit-mask-image: var(--m-i), var(--m-i);
-  mask-image: var(--m-i), var(--m-i);
-  -webkit-mask-origin: var(--m-o);
-  mask-origin: var(--m-o);
-  -webkit-mask-clip: var(--m-o);
-  mask-composite: exclude;
-  -webkit-mask-composite: destination-out;
-  filter: hue-rotate(0);
-  animation: rotate-hue linear 500ms infinite;
-  animation-play-state: paused;
+.btn:hover::before {
+ transform: translateX(0);
+ border-radius: 0px;
 }
 
-button:hover::after {
-  animation-play-state: running;
-}
 
-@keyframes rotate-hue {
-  to {
-    filter: hue-rotate(1turn);
-  }
-}
 
 .project-btn {
   background-color: transparent;
@@ -193,7 +179,7 @@ button:hover::after {
   }
 
   .profile-img {
-    width: 80%; /* More responsive on small screens */
+    width: 100%; /* More responsive on small screens */
     max-width: 200px;
   }
 
@@ -203,11 +189,11 @@ button:hover::after {
     /* margin: 0 2em; */
   }
 
-  .project-btn {
+  /* .project-btn {
     margin-bottom: 10px;
     margin-right: 0;
     border-radius: 25px ;
-  }
+  } */
 }
 @media (min-width: 1500px) {
   .hero-section {
@@ -218,9 +204,9 @@ button:hover::after {
     max-width: 1400px; /* Increase the max-width to make the content more prominent */
   }
 
-  .hero-content {
-  transform: scale(1.2); /* Scale up the hero content */
-}
+  /* .hero-content {
+  transform: scale(1.2); 
+} */
 
   .text-content {
     font-size: 1.5rem; /* Increase the font size to make it more readable */

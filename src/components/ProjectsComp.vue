@@ -20,6 +20,33 @@
         <span>Second</span>
           </div>
         </div>
+
+        <div class="card">
+          <div class="first-content">
+            <span>First</span>
+          </div>
+          <div class="second-content">
+        <span>Second</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="first-content">
+            <span>First</span>
+          </div>
+          <div class="second-content">
+        <span>Second</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="first-content">
+            <span>Keyboard</span>
+          </div>
+          <div class="second-content">
+        <span>Second</span>
+          </div>
+        </div>
       
 
 
@@ -30,7 +57,7 @@
 
 <script>
 export default {
-  // ...
+
 };
 </script>
 
@@ -70,16 +97,16 @@ export default {
 .card {
   width: 190px;
   height: 254px;
-  background: rgb(103, 225, 255);
+  background: rgb(7, 7, 7);
   transition: all 0.4s;
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
   font-size: 30px;
   font-weight: 900;
 }
 
 .card:hover {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   cursor: pointer;
   transform: scale(1.2);
   box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
@@ -94,7 +121,7 @@ export default {
   justify-content: center;
   align-items: center;
   opacity: 1;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .card:hover .first-content {
@@ -109,7 +136,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   transition: all 0.4s;
   font-size: 0px;
   transform: rotate(90deg) scale(-1);

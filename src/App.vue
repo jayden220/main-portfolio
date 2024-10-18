@@ -14,6 +14,12 @@
   text-align: center;
   /* color: #2c3e50; */
 }
+body{
+  font-family: "Gilda Display", serif;
+}
+button{
+  font-family: "Gilda Display", serif;
+}
 
 nav {
   /* padding: 30px; */
