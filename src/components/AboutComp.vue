@@ -2,8 +2,8 @@
   <div class="about-container">
       <div class="about">
           <div class="about-content">
-              <h1>Who I Am: A Passionate Developer Ready for New Challenges</h1>
-              <p>"Distinguished by a fervent passion for music production and an insatiable curiosity for the ever-evolving realm of computer technology, I am a results-driven individual with a proven track record of excellence. Renowned for my unwavering dedication and tireless work ethic, I thrive in collaborative environments where my enthusiasm for both music and technology can flourish. With a keen eye for detail and a knack for problem-solving, I consistently deliver high-quality outcomes while actively contributing to team success. My journey in the field of technology began with rigorous training and certification from Northlink College, where I honed my skills and solidified my foundation. Currently, I am furthering my expertise at Life Choices coding academy, immersing myself in the intricacies of coding and software development. This dual focus on music production and technology not only fuels my professional aspirations but also fosters a holistic approach to innovation and creativity. I am deeply committed to lifelong learning and continuous improvement, constantly seeking opportunities to expand my knowledge and skill set. With a versatile skill set and a passion for excellence, I am poised to make a significant impact in any endeavor I undertake."</p>
+              <h1><span class="who">Who I Am</span>: A Passionate Developer Ready for New Challenges</h1>
+              <p>"I’m a tech enthusiast with A+ and N+ certifications from Northlink College, where I built a solid foundation in technology. I’m also a self-taught music producer who loves combining creativity with my passion for technology. I produce music for fun at home as a hobby, and I’m currently interning at Life Choices Studio after completing my training at Life Choices Coding Academy. I thrive on problem-solving, collaborating with teams, and delivering high-quality results, always looking for new ways to innovate and grow in both tech and creative spaces."</p>
           </div>
       </div>
   </div>
@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .about-container {
   min-height: 100vh; /* Ensures it takes the full viewport height */
   display: flex;
@@ -24,6 +24,7 @@ export default {
   padding: 20px; /* Adds padding around the content */
   box-sizing: border-box;
   color: white;
+  border: #ff0058 solid 5px;
   background-color: rgb(0, 0, 0);
 }
 
@@ -39,7 +40,12 @@ export default {
   font-size: clamp(14px, 2vw, 24px); /* Responsive font size */
   line-height: 1.6;
   overflow-y: hidden; /* Prevents vertical overflow */
-  max-height: 100vh; /* Restricts height to the viewport */
+  max-height: 120vh; /* Restricts height to the viewport */
+}
+.who{
+  background: linear-gradient(90deg, #ffbc00, #ff0058);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 775px) {

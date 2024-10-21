@@ -63,7 +63,9 @@ export default {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #dbb7b7;
+    background: linear-gradient(90deg, #ffbc00, #ff0058);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
 
 
@@ -107,7 +109,7 @@ export default {
 
 }
  a:hover {
-  color: linear-gradient(45deg, #ffbc00, #ff0058); 
+  color: linear-gradient(90deg, #ffbc00, #ff0058); 
   
   /* filter: blur(30px); */
 

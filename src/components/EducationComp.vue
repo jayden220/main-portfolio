@@ -69,8 +69,7 @@ export default {
 </script>
 <style scoped>
 .main-container{
-  color: beige;
-    /* height: 100vh; */
+  height: 290vh;
     background-color: rgb(0, 0, 0);
   font-family: "Gilda Display", serif;
 
@@ -86,14 +85,14 @@ export default {
   margin: 10em auto;
 }
 .heading{
-  /* margin-top: 1em ;
-   */
-   padding-top: 5em;
+ font-size: 2.5em;
+ color: #fff;
+  padding-top: 5em;
 }
 .card {
   width: auto;
   height: 400px;
-  perspective: 1000px;
+  perspective: 1500px;
 }
 .card {
   /* width: 190px; */
@@ -112,7 +111,7 @@ export default {
   font-weight: 900;
   /* transition-duration: .2s; */
   /* background: linear-gradient(0deg, #000, #272727); */
-  background: linear-gradient(45deg, #ffbc00, #ff0058);
+  background: linear-gradient(90deg, #ffbc00, #ff0058);
 
 }
 
@@ -122,13 +121,12 @@ export default {
   left: -2px;
   top: -2px;
   border-radius: 0px;
-  background: linear-gradient(45deg, #ffbc00, #ff0058);
-
+  background: linear-gradient(90deg, #ffbc00, #ff0058);
   background-size: 400%;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  /* animation: steam 20s linear infinite; */
+  animation: steam 10s linear infinite;
 }
 
 @keyframes steam {
@@ -137,7 +135,7 @@ export default {
   }
 
   50% {
-    background-position: 400% 0;
+    background-position: 100% 0;
   }
 
   100% {
@@ -145,9 +143,9 @@ export default {
   }
 }
 
-.card:after {
+/* .card:after {
   filter: blur(100px);
-}
+} */
 
 .card-inner {
   width: 100%;
@@ -188,8 +186,9 @@ export default {
   display: flex;
   align-items: center;
   border: 0px solid #000000;
-  border-radius: 10px;
+  border-radius: 0px;
   justify-content: center;
+  text-align: center;
   /* font-size: 24px; */
   transform: rotateY(180deg);
 }
@@ -281,7 +280,7 @@ export default {
 /* For portrait orientation on tablets and mobile devices */
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   .edu-container {
-    height: 400vh;
+    height: 20vh;
   }
   .edu-head {
     font-size: 36px;

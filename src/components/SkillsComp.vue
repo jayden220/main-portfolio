@@ -1,6 +1,8 @@
 <template>
     <div class="main-container">
-        <h3>Badeges</h3>
+        <div class="badge-heading">
+            <h3>Badeges</h3>
+        </div>
         
         <div class="soft-skills">
             <div class="card">
@@ -32,7 +34,10 @@
             </div>
         </div>
         <!-- start of skills container -->
-        <h2>Technical skills</h2>
+         <div class="skill-heading">
+
+             <h2>Technical skills</h2>
+         </div>
         <div class="tech-skills">
             <div class="card">
                 <span></span>
@@ -126,6 +131,14 @@ export default {
     place-items: center;
     gap: 1.5cqi;
 }
+.badge-heading{
+    color: #fff;
+    padding: 3em;
+}
+.skill-heading{
+    color: #fff;
+    padding: 3em;
+}
 
 img {
     height: 3em;
@@ -152,7 +165,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    background: linear-gradient(90deg, #ffbc00, #ff0058);
     border-radius: 0em;
 }
 
@@ -164,7 +177,7 @@ img {
     width: 100%;
     height: 100%;
     background: linear-gradient(45deg, #ffbc00, #ff0058);
-    filter: blur(30px);
+    /* filter: blur(30px); */
 }
 
 .card span {

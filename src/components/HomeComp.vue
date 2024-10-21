@@ -36,7 +36,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #000000;
   color: #fff;
 }
@@ -85,7 +85,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  background: linear-gradient(4deg, #ffbc00, #ff0058);
+  background: linear-gradient(90deg, #ffbc00, #ff0058);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,7 +110,7 @@ p {
  font-size: 16px;
  font-weight: 700;
  color: white;
- border: 3px solid rgb(255, 255, 255);
+ border: .1px solid rgb(255, 255, 255);
  cursor: pointer;
  position: relative;
  background-color: transparent;
@@ -129,7 +129,7 @@ p {
  width: 100%;
  height: 100%;
  border-radius: 0px;
-  background: linear-gradient(4deg, #ffbc00, #ff0058);
+background: linear-gradient(90deg, #ffbc00, #ff0058);
  transform: translateX(-100%);
  transition: all .3s;
  z-index: -1;
