@@ -4,7 +4,7 @@
       <div class="hero-content">
         
         <div class="image-wrapper">
-          <img src="https://jayden220.github.io/hostedImages/images/20240422_115542.jpg" alt="Your Profile" class="profile-img" />
+          <img src="https://jayden220.github.io/hostedImages/images/IMG_9566.png" alt="Your Profile" class="profile-img" />
         </div>
         <div class="text-content">
           <h1>Hi, I am Jayden.</h1>
