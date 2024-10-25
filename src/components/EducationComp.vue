@@ -71,7 +71,7 @@ export default {
 .main-container{
   height: 290vh;
     background-color: rgb(0, 0, 0);
-  font-family: "Gilda Display", serif;
+ 
 
 }
 .edu-container{
@@ -108,7 +108,7 @@ export default {
   color: white;
   position: relative;
   cursor: pointer;
-  font-weight: 900;
+  /* font-weight: 900; */
   /* transition-duration: .2s; */
   /* background: linear-gradient(0deg, #000, #272727); */
   background: linear-gradient(90deg, #ffbc00, #ff0058);
@@ -126,7 +126,7 @@ export default {
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: steam 10s linear infinite;
+  animation: steam 5s linear infinite;
 }
 
 @keyframes steam {
@@ -143,9 +143,7 @@ export default {
   }
 }
 
-/* .card:after {
-  filter: blur(100px);
-} */
+
 
 .card-inner {
   width: 100%;

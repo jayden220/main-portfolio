@@ -24,7 +24,7 @@ export default {
   padding: 20px; /* Adds padding around the content */
   box-sizing: border-box;
   color: white;
-  border: #ff0058 solid 5px;
+  /* border: #ff0058 solid 5px; */
   background-color: rgb(0, 0, 0);
 }
 
