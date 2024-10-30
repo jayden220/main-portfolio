@@ -59,6 +59,20 @@
                 </div>
               </div>
         </div>
+        <h1>Experience</h1>
+        <div class="education">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <p class="edu-head">Life Choices Studio</p>
+                    <p class="edu-date">September 2024 - Present</p>
+                  </div>
+                  <div class="card-back">
+                    <p class="edu-content">I completed my Bachelor's matriculation, actively participating in chess, MMA, and the school's media team. These activities developed my strategic thinking, discipline, resilience, and communication skills. My time at Bellville Technical High School prepared me academically and fostered a well-rounded approach to learning and growth, building a strong foundation for my future.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
     </div>
 </div>
 </template>
