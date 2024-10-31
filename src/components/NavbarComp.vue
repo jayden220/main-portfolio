@@ -1,7 +1,7 @@
 <template>
     <div class="sticky-top">
         <nav class="navbar">
-            <a class="brand">J V R</a>
+            <p class="brand">J V R</p>
     <div class="container-fluid">
        <nav class="nav-content"> 
         <a href="#">Home</a> |
@@ -22,11 +22,15 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+.stick-top{
+  background-color:black;
+}
 .navbar{
     color: black;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.941);
     height: 100px;
+    overflow: hidden;
+    margin-top: 0;
 }
 
 .brand{
@@ -34,7 +38,7 @@ export default {
   font-size: 20px;
   /* position: absolute; */
   /* left: 10px; */
-  margin-right: 5em;
+  /* margin-right: 5em; */
 }
 
 .nav-conent{
@@ -105,7 +109,7 @@ export default {
  a:hover::after {
   opacity: 1;
   transform: scaleX(1);
-  color: #ff0058;
+  /* color: #ff0058; */
 
 }
  a:hover {
@@ -133,7 +137,7 @@ export default {
     }
     @keyframes bounce {
         100%{
-            transform: translateY(0px);
+            transform: translateY(2px);
         }
         75%{
             transform: translateY(-2px);

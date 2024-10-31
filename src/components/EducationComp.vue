@@ -83,7 +83,7 @@ export default {
 </script>
 <style scoped>
 .main-container{
-  height: 290vh;
+  height: 390vh;
     background-color: rgb(0, 0, 0);
  
 
@@ -140,7 +140,7 @@ export default {
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: steam 5s linear infinite;
+  animation: steam 3s both infinite;
 }
 
 @keyframes steam {
@@ -185,10 +185,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   border-radius: 0px;
   justify-content: center;
-  font-size: 24px;
   transform: rotateY(0deg);
 }
 
@@ -205,18 +204,18 @@ export default {
   transform: rotateY(180deg);
 }
 .edu-head{
-  font-size: 60px;
+  font-size: 600px;
   margin-top: 0em;
 
   /* font-family: ; gilda display  */
 }
 .edu-date{
-  font: 100;
-  color: #6d7b62;
+  font-size: 600px;
+  color: #6af400;
 }
 .edu-content{
-  font-size: 24px;
-  display: block;
+  /* font-size: 24px; */
+  /* display: block; */
 }
 .edu-line{
   background: linear-gradient(4deg, #ffbc00, #ff0058);
@@ -239,6 +238,13 @@ export default {
   .edu-date {
     font-size: 18px;
   }
+  .main-container{
+  height: 430vh;
+    background-color: rgb(197, 164, 164);
+ 
+
+}
+  
 }
 
 /* For screens larger than 1440px */
@@ -255,6 +261,12 @@ export default {
   .edu-date {
     font-size: 16px;
   }
+  .main-container{
+  height: 430vh;
+    background-color: rgb(0, 0, 0);
+ 
+
+}
 }
 
 /* For screens larger than 1024px */
@@ -292,7 +304,7 @@ export default {
 /* For portrait orientation on tablets and mobile devices */
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   .edu-container {
-    height: 20vh;
+    height: 520vh;
   }
   .edu-head {
     font-size: 36px;
@@ -303,5 +315,11 @@ export default {
   .edu-date {
     font-size: 10px;
   }
+  .main-container{
+  height: 440vh;
+    background-color: rgb(52, 182, 59);
+ 
+
+}
 }
 </style>
