@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .hero-section {
-  margin-top: -20px;
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,61 +62,9 @@ export default {
   flex: 1;
   text-align: center; /* Center image in small screens */
 }
-.card1 {
-  background-color: black;
-  width: 250px;
-  height: 300px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-  box-shadow: 2px 2px 19px;
-}
 
-.card1::before {
-  content: "";
-  position: absolute;
-  z-index: -19;
-  width: 262px;
-  height: 312px;
-  margin: auto;
-  background: rgb(4,0,255);
-  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);
-  border-radius: 6px;
-}
 
-.card1::after {
-  content: "";
-  position: absolute;
-  z-index: -19;
-  width: 262px;
-  height: 312px;
-  margin: auto;
-  background: rgb(4,0,255);
-  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);
-  border-radius: 6px;
-  filter: blur(20px);
-  transition: 2s;
-}
 
-.card1:hover::after {
-  animation: cardafter 2.5s infinite forwards;
-}
-
-@keyframes cardafter {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .text-content {
   flex: 1;
@@ -125,6 +73,7 @@ export default {
 .profile-img {
   width: 100%; /* Make the image responsive */
   max-width: 200px; /* Maintain max size */
+  margin-top: 3em;
   height: auto; /* Maintain aspect ratio */
 }
 
