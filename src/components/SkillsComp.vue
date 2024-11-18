@@ -32,6 +32,30 @@
                     <img src="https://jayden220.github.io/hostedImages/cybersecurity-essentials.png" alt="">
                 </div>
             </div>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="https://jayden220.github.io/hostedImages//images/operating-systems-basics.png" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="https://jayden220.github.io/hostedImages//images/linux-unhatched.png" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="https://jayden220.github.io/hostedImages/images/UIUX.png" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="https://jayden220.github.io/hostedImages/images/SCRUM.png" alt="">
+                </div>
+            </div>
         </div>
         <!-- start of skills container -->
          <div class="skill-heading">
@@ -127,9 +151,9 @@ export default {
 }
 .soft-skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, .5fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); /* Responsive layout */
     place-items: center;
-    gap: 1.5cqi;
+    gap: 4.5cqi;
 }
 .badge-heading{
     color: #fff;

@@ -7,7 +7,7 @@
             <div class="card-inner">
               <div class="card-front">
                 <p class="edu-head">Life Choices Academy</p>
-                <p class="edu-date">April - Pressent</p>
+                <h6 class="edu-date">April - September 2024</h6>
               </div>
               <div class="card-back">
             <p class="edu-content">I am currently enrolled in a comprehensive coding program that emphasizes software development, web development, and advanced programming languages. This program not only enhances my technical skills but also focuses on my professional and personal development. I am excited to apply my learning to real-world projects and pursue a career in the dynamic field of technology.</p>
@@ -21,7 +21,7 @@
           <div class="card-inner">
             <div class="card-front">
             <h1 class="edu-head">Northlink College</h1>
-            <p class="edu-date">January - December 2023</p>
+            <h6 class="edu-date">January - December 2023</h6>
             </div>
             <div class="card-back">
               <p class="edu-content">I began my IT journey at Northlink College, earning certifications in Comptia A+, N+, Cisco, and ICDL cybersecurity. These built my skills in hardware, networking, IT operations, and cybersecurity. The hands-on training prepared me for a dynamic IT career, and I’m eager to apply my skills while exploring cloud computing and new technologies.</p>
@@ -51,7 +51,21 @@
                 <div class="card-inner">
                   <div class="card-front">
                     <p class="edu-head">HTS Bellville</p>
-                    <p class="edu-date">2018 - 2022</p>
+                    <h6 class="edu-date">2018 - 2022</h6>
+                  </div>
+                  <div class="card-back">
+                    <p class="edu-content">I completed my Bachelor's matriculation, actively participating in chess, MMA, and the school's media team. These activities developed my strategic thinking, discipline, resilience, and communication skills. My time at Bellville Technical High School prepared me academically and fostered a well-rounded approach to learning and growth, building a strong foundation for my future.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <h1>Experience</h1>
+        <div class="education">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <p class="edu-head">Life Choices Studio</p>
+                    <h6 class="edu-date">September 2024 - Present</h6>
                   </div>
                   <div class="card-back">
                     <p class="edu-content">I completed my Bachelor's matriculation, actively participating in chess, MMA, and the school's media team. These activities developed my strategic thinking, discipline, resilience, and communication skills. My time at Bellville Technical High School prepared me academically and fostered a well-rounded approach to learning and growth, building a strong foundation for my future.</p>
@@ -69,7 +83,7 @@ export default {
 </script>
 <style scoped>
 .main-container{
-  height: 290vh;
+  height: 390vh;
     background-color: rgb(0, 0, 0);
  
 
@@ -126,7 +140,7 @@ export default {
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
-  animation: steam 5s linear infinite;
+  animation: steam 3s both infinite;
 }
 
 @keyframes steam {
@@ -171,10 +185,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 10px solid #000000;
+  border: 1px solid #000000;
   border-radius: 0px;
   justify-content: center;
-  font-size: 24px;
   transform: rotateY(0deg);
 }
 
@@ -191,18 +204,18 @@ export default {
   transform: rotateY(180deg);
 }
 .edu-head{
-  font-size: 60px;
+  /* font-size: 600px; */
   margin-top: 0em;
 
   /* font-family: ; gilda display  */
 }
 .edu-date{
-  font: 100;
-  color: #6d7b62;
+  /* font-size: 800px; */
+  color: #eccdcd;
 }
 .edu-content{
-  font-size: 24px;
-  display: block;
+  /* font-size: 24px; */
+  /* display: block; */
 }
 .edu-line{
   background: linear-gradient(4deg, #ffbc00, #ff0058);
@@ -222,9 +235,16 @@ export default {
   .edu-content {
     font-size: 30px;
   }
-  .edu-date {
+  /* .edu-date {
     font-size: 18px;
-  }
+  } */
+  .main-container{
+  height: 430vh;
+    background-color: rgb(197, 164, 164);
+ 
+
+}
+  
 }
 
 /* For screens larger than 1440px */
@@ -238,9 +258,15 @@ export default {
   .edu-content {
     font-size: 26px;
   }
-  .edu-date {
+  /* .edu-date {
     font-size: 16px;
-  }
+  } */
+  .main-container{
+  height: 430vh;
+    background-color: rgb(0, 0, 0);
+ 
+
+}
 }
 
 /* For screens larger than 1024px */
@@ -254,9 +280,9 @@ export default {
   .edu-content {
     font-size: 22px;
   }
-  .edu-date {
+  /* .edu-date {
     font-size: 14px;
-  }
+  } */
 }
 
 /* For landscape orientation on tablets and mobile devices */
@@ -270,15 +296,15 @@ export default {
   .edu-content {
     font-size: 18px;
   }
-  .edu-date {
+  /* .edu-date {
     font-size: 12px;
-  }
+  } */
 }
 
 /* For portrait orientation on tablets and mobile devices */
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   .edu-container {
-    height: 20vh;
+    height: 520vh;
   }
   .edu-head {
     font-size: 36px;
@@ -286,8 +312,12 @@ export default {
   .edu-content {
     font-size: 16px;
   }
-  .edu-date {
+  /* .edu-date {
     font-size: 10px;
-  }
+  } */
+  .main-container{
+  height: 440vh;
+    background-color: rgb(52, 182, 59);
+    }
 }
 </style>
