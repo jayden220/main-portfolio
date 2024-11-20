@@ -2,7 +2,8 @@
   <div class="about-container">
       <div class="about">
           <div class="about-content">
-              <h1><span class="who">Who I Am</span>: A Passionate Developer Ready for New Challenges</h1>
+              <h1>Who I Am</h1>
+                <span class="who">A Passionate Developer Ready for New Challenges</span>
               <p>"I’m a tech enthusiast with A+ and N+ certifications from Northlink College, where I built a solid foundation in technology. I’m also a self-taught music producer who loves combining creativity with my passion for technology. I produce music for fun at home as a hobby, and I’m currently interning at Life Choices Studio after completing my training at Life Choices Coding Academy. I thrive on problem-solving, collaborating with teams, and delivering high-quality results, always looking for new ways to innovate and grow in both tech and creative spaces."</p>
           </div>
       </div>
@@ -46,6 +47,11 @@ export default {
   background: linear-gradient(90deg, #ffbc00, #ff0058);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 775px) {
@@ -54,9 +60,10 @@ export default {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .about-content {
       font-size: clamp(10px, 4vw, 16px); /* Further adjusts font size for very small screens */
+      margin-top: 7em;
   }
 }
 </style>

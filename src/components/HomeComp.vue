@@ -4,19 +4,17 @@
       <div class="hero-content">
         
         <div class="image-wrapper">
-          <img src="https://jayden220.github.io/hostedImages/images/IMG_9566.png" alt="Your Profile" class="profile-img" />
+          <img src="https://jayden220.github.io/hostedImages/images/IMG_9566.png" alt="Your Profile" class="profile-img" loading="lazy"/>
         </div>
         <div class="text-content">
           <h1>Hi, I am Jayden.</h1>
           <h2>A creative designer based in Belhar, Cape Town</h2>
                   <p>
-                    I design and code beautifully simple things and I love what I do. Just simple like that!
+                    Coding, collaborating, and creating—always striving for excellence.
                   </p>
           <div class="buttonsgroup">
-       
-
-        <a class="btn" href="#projects">View My Work</a>
-        <a class="btn" href="#contact">Lets Talk</a>
+            <a class="btn" href="#projects">Explore My Projects</a>
+            <a class="btn" href="#contact">Connect with Me</a>
           </div>
         </div>
       </div>
@@ -45,7 +43,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10em;
+  gap: 4em;
   padding: 20px;
   max-width: 1200px;
   width: 100%;
@@ -59,7 +57,7 @@ export default {
 }
 
 .image-wrapper {
-  flex: 1;
+  flex: 1.5;
   text-align: center; /* Center image in small screens */
 }
 
@@ -75,11 +73,18 @@ export default {
   max-width: 200px; /* Maintain max size */
   margin-top: 3em;
   height: auto; /* Maintain aspect ratio */
+  border: 2px solid transparent; /* Set border to transparent */
+  border-image:linear-gradient(4deg, #ffbc00, #ff0058) 1; /* Add gradient border */
+  
+  transition: transform 0.3s ease;
 }
-
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 3px 8px   #ffbc00; /* Add glow effect */
+}
 h1, h2 {
   margin: 0;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h1 {
@@ -89,7 +94,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  background: linear-gradient(90deg, #ffbc00, #ff0058);
+  background: linear-gradient(90deg, #ffbc00, #ff0058) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -111,8 +116,8 @@ p {
 .btn {
  display: inline-block;
  padding: 0.9rem 1.8rem;
- font-size: 16px;
- font-weight: 700;
+ font-size: 17px;
+ font-weight: 200;
  color: white;
  border: .1px solid rgb(255, 255, 255);
  cursor: pointer;
@@ -142,6 +147,7 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
 .btn:hover::before {
  transform: translateX(0);
  border-radius: 0px;
+ border: none;
 }
 
 
@@ -158,7 +164,7 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .hero-content {
@@ -167,11 +173,11 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
   }
 
   .text-content {
-    margin-top: 20px;
+    margin-top: 2em;
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   h2 {
@@ -183,8 +189,9 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
   }
 
   .profile-img {
-    width: 100%; /* More responsive on small screens */
-    max-width: 200px;
+    width: 80%; /* More responsive on small screens */
+    max-width: 300px;
+    margin-top: 6em;
   }
 
   .buttons {
@@ -232,25 +239,24 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
 /* Additional media queries for smaller screens */
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
-
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
-
-  p {
-    font-size: 0.9rem;
+  .btn {
+    font-size: 1rem;
   }
 
   .profile-img {
-    width: 70%; /* Even smaller for very small screens */
-    max-width: 180px;
+    width: 100%; /* Even smaller for very small screens */
+    max-width: 200px;
+    margin-top: 5em;
   }
 }
 
 /* For very small screens */
-@media (max-width: 300px) {
+@media (max-width: 640px) {
   h1 {
     font-size: 1.5rem;
   }
@@ -261,6 +267,11 @@ background: linear-gradient(40deg, #ffbc00, #ff0058);
 
   p {
     font-size: 0.8rem;
+  }
+  .profile-img {
+    width: 100%; /* Even smaller for very small screens */
+    max-width: 200px;
+    margin-top: 10em;
   }
 }
 </style>
