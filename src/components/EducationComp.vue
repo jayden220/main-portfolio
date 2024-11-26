@@ -10,7 +10,7 @@
                 <h6 class="edu-date">April - September 2024</h6>
               </div>
               <div class="card-back">
-            <p class="edu-content">I am currently enrolled in a comprehensive coding program that emphasizes software development, web development, and advanced programming languages. This program not only enhances my technical skills but also focuses on my professional and personal development. I am excited to apply my learning to real-world projects and pursue a career in the dynamic field of technology.</p>
+            <p class="edu-content">I was enrolled in a comprehensive coding program that emphasizes software development, web development, and advanced programming languages. This program not only enhances my technical skills but also focuses on my professional and personal development. I am excited to apply my learning to real-world projects and pursue a career in the dynamic field of technology.</p>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@
                 </div>
               </div>
         </div>
-        <h1>Experience</h1>
+        <h1 class="heading2">Experience</h1>
         <div class="education">
               <div class="card">
                 <div class="card-inner">
@@ -68,8 +68,8 @@
                     <h6 class="edu-date">September 2024 - Present</h6>
                   </div>
                   <div class="card-back">
-                    <p class="edu-content">I completed my Bachelor's matriculation, actively participating in chess, MMA, and the school's media team. These activities developed my strategic thinking, discipline, resilience, and communication skills. My time at Bellville Technical High School prepared me academically and fostered a well-rounded approach to learning and growth, building a strong foundation for my future.</p>
-                  </div>
+                    <p class="edu-content">I am currently part of a comprehensive internship program at Life Choices Studio, focusing on a Cybersecurity Learning Journey while gaining hands-on experience in software and web development. This program emphasizes both technical skills, such as secure coding practices, threat analysis, and vulnerability assessments, and professional growth through team collaboration and real-world projects. By integrating my learning with practical application, I am building a strong foundation in cybersecurity and web development, preparing to contribute meaningfully to the dynamic field of technology.</p>
+                                </div>
                 </div>
               </div>
         </div>
@@ -89,7 +89,7 @@ export default {
 
 }
 .edu-container{
-  height: 390vh;
+  height: 30vh;
 }
 .education{
   display: flex;
@@ -102,6 +102,11 @@ export default {
  font-size: 2.5em;
  color: #fff;
   padding-top: 5em;
+}
+.heading2{
+ font-size: 2.5em;
+ color: #fff;
+  padding-top: 2em;
 }
 .card {
   width: auto;

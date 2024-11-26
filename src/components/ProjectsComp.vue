@@ -128,17 +128,12 @@ export default {
   border-radius: 0px;
   box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
   font-size: 30px;
-  font-weight: 900;
+
 }
-/* img{
-  width: 100%;
-  height: 50%;
-} */
+
 img {
-  width: 100%; /* Make the image responsive */
-  max-width: 200px; /* Maintain max size */
-  /* margin-top: 3em; */
-  height: auto; /* Maintain aspect ratio */
+  width: 6em; /* Make the image responsive */
+  height: 6em; /* Maintain aspect ratio */
 }
 
 .card:hover {

@@ -1,7 +1,7 @@
 <template>
     <div class="main-container">
         <div class="badge-heading">
-            <h3>Badeges</h3>
+            <h3>Badges</h3>
         </div>
         
         <div class="soft-skills">
@@ -171,9 +171,10 @@ img {
 .card {
     position: relative;
     width: 100px;
-    color: #fff;
+    /* color: #fff; */
     transition: 0.5s;
     border-radius: 0px;
+    border: none;
     cursor: pointer;
     margin: 1em 0;
 }

@@ -20,6 +20,7 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 
 .stick-top{
@@ -31,6 +32,7 @@ export default {
     height: 100px;
     overflow: hidden;
     margin-top: 0;
+    font-family: 'Source Serif';
 }
 
 .brand{
@@ -45,6 +47,7 @@ export default {
     display: flex;
     justify-content: center;
     margin-bottom: 3em ;
+    font-family: 'Source Serif';
 }
 .container-fluid{
     display: flex;
