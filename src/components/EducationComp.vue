@@ -83,13 +83,13 @@ export default {
 </script>
 <style scoped>
 .main-container{
-  height: 390vh;
+  height: 450vh;
     background-color: rgb(0, 0, 0);
  
 
 }
 .edu-container{
-  height: 30vh;
+  height: 100vh;
 }
 .education{
   display: flex;

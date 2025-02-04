@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .about-container {
-  min-height: 100vh; /* Ensures it takes the full viewport height */
+  min-height:90vh; /* Ensures it takes the full viewport height */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -176,7 +176,7 @@ img {
     border-radius: 0px;
     border: none;
     cursor: pointer;
-    margin: 1em 0;
+    margin: .5em 0;
 }
 
 .card:hover {
