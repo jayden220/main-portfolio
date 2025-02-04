@@ -150,7 +150,7 @@
   
   .contact-form,
   .contact-info{
-    flex: .8;
+    flex: 1.9;
     min-width: 300px;
   }
   .heading{
@@ -163,13 +163,13 @@
   margin-bottom: 20px;
 }
   
-  .contact-info {
-    flex: .5;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    font-size: 1.1rem;
-  }
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}y
 
 
 

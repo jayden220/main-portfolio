@@ -71,7 +71,7 @@ export default {
 .profile-img {
   width: 100%; /* Make the image responsive */
   max-width: 200px; /* Maintain max size */
-  margin-top: 3em;
+  margin-top: 4.5em;
   height: auto; /* Maintain aspect ratio */
   border: 2px solid transparent; /* Set border to transparent */
   border-image:linear-gradient(4deg, #ffbc00, #ff0058) 1; /* Add gradient border */
@@ -79,7 +79,7 @@ export default {
   transition: transform 0.3s ease;
 }
 .profile-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0px 3px 8px   #ffbc00; /* Add glow effect */
 }
 h1, h2 {
