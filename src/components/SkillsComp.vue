@@ -56,6 +56,12 @@
                     <img src="https://jayden220.github.io/hostedImages/images/SCRUM.png" alt="">
                 </div>
             </div>
+            <div class="card">
+                <span></span>
+                <div class="content">
+                    <img src="https://jayden220.github.io/hostedImages/images/python-essentials-1.1.png" alt="">
+                </div>
+            </div>
         </div>
         <!-- start of skills container -->
          <div class="skill-heading">
